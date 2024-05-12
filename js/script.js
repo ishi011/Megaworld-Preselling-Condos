@@ -588,7 +588,7 @@ function generateGridItems(containerId, gridItemsData) {
 
     // Create "GET QUOTE" button
     const quoteBtn = document.createElement("a");
-    quoteBtn.href = "./ContactUs.html";
+    quoteBtn.href = "./ContactUs";
     quoteBtn.classList.add("btn");
     quoteBtn.textContent = "GET QUOTE";
 
