@@ -1,0 +1,41 @@
+article {
+  margin-top: 5rem;
+}
+article h1 {
+  padding-top: 35px;
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+  user-select: none;
+}
+@media (max-width: 800px) {
+  article h1 {
+    font-size: 1.8rem;
+  }
+  ul {
+    padding-left: 10px;
+  }
+  p {
+    font-size: 0.9rem;
+  }
+}
+.faq {
+  margin-bottom: 15px;
+}
+
+h2 {
+  font-size: 1.4rem;
+  margin-bottom: 10px;
+}
+
+p {
+  line-height: 1.2;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+ul li {
+  margin-bottom: 5px;
+}
